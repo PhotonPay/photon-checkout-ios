@@ -25,7 +25,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "PhotonCheckout",
-            url: "https://cdn.photonpay.com/checkout-sdk/ios/v1.0.0/PhotonCheckout.xcframework.zip",
+            url: "https://cdn1.dev.photontech.cc/checkout-sdk/ios/v1.0.0/PhotonCheckout.xcframework.zip",
             checksum: "ded40b4e77964a9b0239662edac55464356139748a0db905ec2b80bfb03c3685"
         ),
     ]
