@@ -5,7 +5,7 @@ let package = Package(
     name: "PhotonCheckout",
     platforms: [.iOS(.v14)],
     products: [
-        .library(name: "PhotonCheckout", targets: ["PhotonCheckoutWrapper"]),
+        .library(name: "PhotonCheckout", targets: ["PhotonCheckout", "PhotonCheckoutDeps"]),
     ],
     dependencies: [
         .package(url: "https://github.com/trustdecision/trustdevice-pro-ios.git", exact: "5.3.1-4"),
@@ -14,9 +14,8 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "PhotonCheckoutWrapper",
+            name: "PhotonCheckoutDeps",
             dependencies: [
-                "PhotonCheckout",
                 .product(name: "TrustDecisionPro", package: "trustdevice-pro-ios"),
                 .product(name: "FingerprintJS", package: "fingerprintjs-ios"),
                 .product(name: "ForterSDK", package: "forter-ios-sdk"),
