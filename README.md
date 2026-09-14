@@ -19,8 +19,7 @@ PhotonCheckout iOS SDK 提供完整的支付收银台能力，支持信用卡、
    ```
    https://github.com/PhotonPay/photon-checkout-ios
    ```
-3. 选择版本规则（推荐 **Up to Next Major**）
-4. 点击 **Add Package**
+3. 选择最新版本，点击 **Add Package**
 
 ### Linker Flag 配置
 
@@ -34,4 +33,7 @@ PhotonCheckout iOS SDK 提供完整的支付收银台能力，支持信用卡、
 
 | 版本 | 说明 |
 |---|---|
+| 1.0.3 | 最新版本 |
+| 1.0.2 | 稳定性修复 |
+| 1.0.1 | 稳定性修复 |
 | 1.0.0 | 初始版本 |
