@@ -5,7 +5,6 @@ PhotonCheckout iOS SDK 提供完整的支付收银台能力，支持信用卡、
 ## 要求
 
 - iOS 14.0+
-- Swift 5.9+
 - Xcode 15.0+
 
 ## 安装
